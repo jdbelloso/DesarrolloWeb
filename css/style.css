@@ -4,15 +4,15 @@
     --primario: #FFC107;
     --secundario: #0097A7;
     --gris: #757575;
-    
 }
 
 html{
     font-size: 62.5%;
 }
 
-body{
+body{ 
     font-size: 16px;/* 1rem = 16px */
+    font-family: "Krub", sans-serif;
 }
 
 .titulo{
@@ -22,4 +22,16 @@ body{
 
 .titulo span{
     font-size: 2rem;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}   
+
+.nav-bg{
+    background-color: var(--primario);
+}
+.navegacion-principal{
+    background-color: var(--secundario);
 }
